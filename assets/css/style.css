@@ -281,8 +281,7 @@ section {
 }
 
 .section-bg {
-  background: #092452;
-  color: white;
+  background: #f5f8fd;
 }
 
 .section-title {
@@ -295,7 +294,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color:#bdd8ff;
+  color: #173b6c;
 }
 
 .section-title h2::after {
@@ -341,6 +340,7 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
@@ -357,7 +357,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color:wheat;
+  color: #050d18;
 }
 
 .skills .progress .skill .val {
