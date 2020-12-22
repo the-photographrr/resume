@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   background: #149ddd;
-  color: #fff;
+  color: #ffffff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -148,10 +148,16 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
+.nav-menu > ul > li:hover {
+  background: #120c36;
+  border-radius: 30px;
+}
+
+
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #f9faff;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -212,13 +218,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   /* background: url("../image/bg.mp4") top center; */
-  background: rgb(18, 12, 54);
+  background: #120c36;
   background-size: cover;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: #050d184d;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -282,7 +288,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #120c36;
 }
 
 .section-title {
@@ -364,17 +370,19 @@ section {
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+  background-color: #ffffff;
+
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background: #6aa5f3;
+
 }
 
 /*--------------------------------------------------------------
