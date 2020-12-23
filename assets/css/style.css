@@ -149,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu > ul > li:hover {
-  background: #120c36;
   border-radius: 30px;
 }
 
@@ -211,14 +210,30 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.button-cv{
+  background:#293b5c;
+  color:white;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+}
+.button-cv:hover{
+  background: #05476686;
+  color: #fff;
+  text-decoration: none;
+}
+.button-cv i:hover{
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../image/bg.mp4") top center; */
-  background: #120c36;
+  background: url("../img/bg-img.png") top center;
+  /* background: #120c36; */
   background-size: cover;
 }
 
@@ -373,8 +388,7 @@ section {
 
 }
 
-.skills .progress-bar-wrap {
-}
+
 
 .skills .progress-bar {
   width: 1px;
