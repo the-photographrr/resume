@@ -22,8 +22,8 @@
    
    #particles-js{
       height: 100%;
-      background-color: #120c36;
-      /* background: url("../img/bg-img.png") top center; */
+      /* background-color: #120c36; */
+      background: url("/assets/img/bg-img.png") top center;
       background-size: cover;
   }
    
