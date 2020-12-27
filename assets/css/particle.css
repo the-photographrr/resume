@@ -22,7 +22,7 @@
    #particles-js{
       height: 100%;
       /* background-color: #120c36; */
-      background: url("/assets/img/bg-img.jpg") top center !important;
+      background: url("/assets/img/bg-img.png") top center !important;
       background-size: cover !important;
   }
    
