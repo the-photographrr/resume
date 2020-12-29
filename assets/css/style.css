@@ -231,12 +231,11 @@ h1, h2, h3, h4, h5, h6 {
 # Particles Section
 -------------------------------------------------------------- */
  /* ---- base ---- */
-   
+/*    
  html,body{ 
   width:100%;
   height:100%;
-  /* background:#111; */
-}
+} */
 
 canvas{
 display:block;
@@ -248,8 +247,8 @@ align-items: center;
 
 #particles-js{
  height: 100%;
- /* background-color: #120c36; */
- background: url("/assets/img/bg-img.png") top center !important;
+ background-color: #120c36;
+ /* background: url("/assets/img/bg-img.png") top center !important; */
  background-size: cover !important;
 }
 
